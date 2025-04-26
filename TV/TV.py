@@ -5,17 +5,17 @@ class TV:
         self.volumeLevel = 1 # Start the TV volume level with level 1
         self.on = False # TV is initially turned off
 
-    def turnOn(self):
+    def turn_on(self):
         # Method to turn the TV on
         self.on = True
 
-    def turnOff(self):
+    def turn_off(self):
         # Method to turn the TV off
         self.on = False
 
     def get_channel(self):
         # Method to get the current channel
-        return self.channel()
+        return self.channel
 
     def set_channel(self, channel):
         # Method to set the TV to a new channel
