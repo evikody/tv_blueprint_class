@@ -11,7 +11,7 @@ def turn_on(self):
 
 def turn_off(self):
     # Method to turn the TV off
-    self.off = True
+    self.on = False
 
 def get_channel(self):
     # Method to get the current channel
